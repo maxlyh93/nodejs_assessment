@@ -19,6 +19,6 @@ router.post("/users", saveUser);
 router.patch("/users/:id", updateUser);
 router.delete("/users/:id", deleteUser);
 
-router.get("/search", searching);
+router.post("/search", searching);
 
 export default router;
